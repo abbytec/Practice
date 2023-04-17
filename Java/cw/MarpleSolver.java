@@ -1,4 +1,4 @@
-package Java.cw;
+package cw;
 
 import java.lang.reflect.Constructor;
 import java.util.Arrays;

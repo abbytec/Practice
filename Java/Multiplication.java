@@ -10,6 +10,11 @@ public class Multiplication {
   }
 
   public static void main(String[] args) {
-    multiplicationTable(3);
+    for (int[] row : multiplicationTable(3)) {
+      for (int value : row) {
+        System.out.print(value + " ");
+      }
+      System.out.println();
+    }
   }
 }
